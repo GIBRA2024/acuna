@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-image: url('Imagenes/prueba2.png'); /* Cambia esta ruta por la de tu imagen */
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+    height: 930px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    color: white;
+    font-size: 35px;
+}
+
+h3{
+    color: white;
+    margin-top: -25px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+.profile-pic {
+    width: 230px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.social-buttons {
+    margin-top: 40px;
+}
+
+.boton {
+    position: relative;
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    cursor: pointer;
+}
+
+.boton span {
+    text-decoration: none;
+    color: #3aabd4;
+}
+
+
+.boton i {
+    position: absolute;
+    left: 25px;
+    margin-right: 20px;
+    color: #3aabd4;
+    font-size: 30px;
+}
+
+footer {
+    margin: 100px 0;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+}
+
+footer a:visited {
+    color: white;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: white;
+    color: #3aabd4;
+    border: none;
+    border-radius: 30px;
+}
+
